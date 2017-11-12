@@ -12,18 +12,6 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 * Summarize the results with a written report
 
-
-[//]: # (Image References)
-
-[//]:![image1](./examples/visualization.jpg "Visualization")
-[//]:![image2](./examples/grayscale.jpg "Grayscaling")
-[//]:![image3](./examples/random_noise.jpg "Random Noise")
-[//]:![image4](./examples/placeholder.png "Traffic Sign 1")
-[//]:![image5](./examples/placeholder.png "Traffic Sign 2")
-[//]:![image6](./examples/placeholder.png "Traffic Sign 3")
-[//]:![image7](./examples/placeholder.png "Traffic Sign 4")
-[//]:![image8](./examples/placeholder.png "Traffic Sign 5")
-
 ---
 ### Writeup / README
 
@@ -80,11 +68,11 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-The following are the hyper parameters of the best model -
-Optimizer: Adam
-Learning Rate: 0.001
-Batch Size: 128
-Epochs: 100
+The following are the hyper parameters of the best model -  
+Optimizer: Adam  
+Learning Rate: 0.001  
+Batch Size: 128  
+Epochs: 100  
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -110,12 +98,11 @@ scores were better compared to the LeNet model.
 
 Here are five German traffic signs that I found on the web:
 
-![Test Image 1](./test_images/test_img1.jpeg)
-![Test Image 2](./test_images/test_img2.jpeg)
-![Test Image 3](./test_images/test_img3.jpeg)
-![Test Image 4](./test_images/test_img4.jpeg)
-![Test Image 5](./test_images/test_img5.jpeg)
-
+![Test Image 1](./test_images/test_img1.jpeg)  
+![Test Image 2](./test_images/test_img2.jpeg)  
+![Test Image 3](./test_images/test_img3.jpeg)  
+![Test Image 4](./test_images/test_img4.jpeg)  
+![Test Image 5](./test_images/test_img5.jpeg)  
 
 The first, second and fourth images should be relatively easy to classify.
 The third and fifth images have watermarks on them which might throw off a
